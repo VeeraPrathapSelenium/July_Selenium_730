@@ -1,0 +1,30 @@
+Debugging:
+
+This is a process to view and analyze the step by step by code in runtime
+
+This helps the user to view and understand the flow of execution
+
+It helps the user to view the values stored by the variables in run time.
+
+To intiate the debugging, user must keep a break point.
+
+Breakpoint tells the compiler from where the debugging must start
+
+There are different types of debugging level
+1.Step into
+2.Step out
+3.Step over
+
+Step into: While doing the debugging, if the user come accross any method, and if that method needs to be validate in debugging, then w must use Step into(F5)
+
+Step out: While doing the debugging, if the user come accross any method, and if that method needs to be validate in debugging and some point if we need to come out of the method , then we must use Step out(F7)
+
+Step Over: While doing the debugging, if the user come accross any method, and if the user not required to debug a method and need to execute without entering a method, then we must use Step over(F6)
+
+F6 is also used to to move on to the next statement(Line By Line Debugging)
+
+
+Steps:
+1.Insert a break point
+2.Run the program in debug mode
+3.Take any one of the options like (Step into or Step over )

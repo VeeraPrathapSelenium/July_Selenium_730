@@ -1,0 +1,65 @@
+Looping statement"
+
+The main purpose of looping statements is to iterate same statement with  different sets of data or to repeat same statement for a specific number of times.
+
+in java we have different looping statements like
+
+While
+Do While
+For Loop
+Foreach 
+
+While loop:
+This loop is called as "idefinite" loop.
+This loop will check the condition first, only if the condition is true then only it will allows us to execute the body of the loop
+
+This loop will noty have any increment value.So user must give the increment value explicitly.
+
+If there is no increment value or condition to be false, then this loop will run as indefinite loop with cloing.
+
+Such kind of behaviours will lead into "Memory leaks" and the system will be corrupt.
+
+So when the user is using the while loop, must be cautious in observing the increment factor or condition that goes false.
+
+Syntax:
+
+While(some condition)
+{
+//Body
+}
+
+Example : 
+Print the output like 
+
+Hello 1
+
+
+Hello 2
+
+Hello 3
+
+
+Hello 10
+
+DoWhile:
+This loop is also a indefinite loop when there is no increment factor or false condition.
+
+this loop will not check for the condition in the first go.
+This loop will help the user to execute the body atleast once.
+
+For loop:
+This loop is called as "definite loop"
+it will have a starting point and ending point.
+
+Ending point shows , that how many times does the loop needs to be execute.here it does not requires to have increment factor to write explicitly.
+
+Synatx:
+For(starting point;condition;increment value)
+{
+//Body
+}
+
+
+
+
+
