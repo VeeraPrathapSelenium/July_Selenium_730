@@ -1,0 +1,40 @@
+In Java Before start building the business logic, Understand what arte the area are avaialable to to script the program.
+
+Basically in java , we have 2 areas called "Static Area","Instance Area"
+
+
+Similarly there are different types of variables available in java
+
+1.Static Varibale
+2.Instance Variable
+3.Local Variables
+
+
+What is method?
+
+A method is block of code, which is built for the puropse of reusability
+
+Once a method is built , it cam be access at any where depends on the criteria that is given
+
+Types of methods
+
+	Instance Method
+	Static Method
+
+synatx of a method:
+
+acessspecifier  Static/Instance returntype methodname()
+{
+
+
+}
+
+
+How to create an object:
+
+ClassName somevariable=new ClassName();
+
+
+
+
+

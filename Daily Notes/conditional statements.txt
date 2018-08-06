@@ -1,0 +1,35 @@
+Conditional Statements:
+
+These statements are used to control the flow of execution based someconsition that is given by th user
+
+For example, in a registration process only if the the regitration lable is displayed then only allow the user to register new user with proper details.
+
+Now in this exmple, we need to verify wheter that the registration label is displayed or not .
+
+Now here we take the help of conditional statments.
+
+How many types of conditional statements are avialable in Java?
+
+1.Simple if
+2.if else
+3.else if
+4.switch case
+
+1.Simple if:
+Thsi statement is used to verify only one condition.
+The body will execute only when the condition is true
+
+if the condition is not true, then the body will never execute.
+
+By default the condition is mapped to "true", so if the user need to validate any thing against the true , we really not required to provide the true word.
+
+Syntax:
+
+if(some condition)
+{
+
+}
+
+
+
+

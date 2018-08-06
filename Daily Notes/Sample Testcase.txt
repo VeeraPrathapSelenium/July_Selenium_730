@@ -1,0 +1,22 @@
+TestObjective:
+Open Talent Zing Applicatiopn and verify if the user can register as employer
+
+
+TestSteps:
+1.Launch the application
+2.Verify if the application is launched
+3.Hover on Register Link
+4.Click on the Employer link
+5.Verify if the register page is dispalyed.
+
+
+TestObjective:
+Open Talent Zing Applicatiopn and verify that Quick notes dispalyed under Register section.
+
+TestSteps:
+1.Launch the application
+2.Verify if the application is launched
+3.Hover on Register Link
+4.Click on the Employer link
+5.Verify if the register page is dispalyed.
+6.Verify that the Quck notes displayed on the right side bar

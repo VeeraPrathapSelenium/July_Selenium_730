@@ -1,0 +1,67 @@
+public class ABC
+{
+
+	// Components of a class
+
+		* Variables
+		* Methods
+		* Constructor
+		* Static Block
+		* Instance Block
+
+}
+
+What do you mean by variables?
+
+variables are called as "Memomy Holders" to save or store the the data 
+
+In Java To store different types of data, there are some datatypes that are associated..
+
+There 2 types of datatypes available in java
+
+1.Primitive datatypes
+
+int 
+long
+float
+boolean
+double
+short
+char
+
+
+2.Non-Primitive Datatypes
+Strings
+Arrays
+
+
+How to create a variable?
+
+Creation of variable can be do in different ways
+1.Declaration
+2.Intailization
+
+
+How to declare a variable?
+syntax:
+
+Datatype variablename;
+
+
+Note:Always the variable nmane must be in small letters
+Ending of the statement must be ";"
+
+
+How to intilize the variable?
+
+variablename=somevalue;
+
+
+
+in simple way we can do both declaration and intilization in single line
+Datatype variablename=somevalue;
+
+
+
+
+

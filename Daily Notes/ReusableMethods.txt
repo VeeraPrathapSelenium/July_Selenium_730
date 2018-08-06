@@ -1,0 +1,18 @@
+acessspecifier static/intance returntype methodname()
+{
+
+
+}
+
+
+returntype must be a datatype
+
+Depends on the type of value that needs to be return to the user, we mut choose appropriate datatype as a return value
+
+Suppose i want to return a number then it must "int"
+
+Note:
+When a method is returning some value , if we ned to store that value, then assign that method to a variable.
+
+
+
