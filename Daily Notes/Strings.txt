@@ -1,0 +1,25 @@
+Strings:
+
+
+Strings is a combination of words, special characters, numbers including white spaces.
+
+Strings must always represent in double quotes
+
+Anything that is represented in double quotes it is called as a String
+
+String has some set of methods 
+
+1.length:
+this method will return the length of a given source string
+
+syntax:
+
+Stringvariable (or) String.length
+
+2.CharAt
+this method is used to get the character from a specific index position
+
+Syntax:Stringvariable (or) String.charAt(index)
+
+Return type:Character
+

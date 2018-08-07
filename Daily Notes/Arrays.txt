@@ -1,0 +1,50 @@
+Arrays:
+
+In General a varaiable can save only one value at a time.But if we need to save more than one value, variable is not a good options to do taht.
+
+So to over come this, Arrays are introduced.
+Arrays are collection of same datatype items.
+Arrays are size based variable
+
+
+Syntax:
+
+Datatype[] somename=new Datatype[size]
+
+All the element in an array will be at index based.
+index will always starts with 0
+
+To get the total elements in an array is "Size-1"
+
+If the user requires to retrive a single item from an array, then user must call by its index value
+
+When there is no index available specified by the user, then the compiler will throw an exception in run time as "Index out of bounds"
+
+Can we print all the items from an array?
+
+Yes this possible to do in two ways
+
+1.Get the length of an array and use a for loop
+2.Use For Each loop
+
+
+How to get the length of an array?
+
+Syntax:
+arrayvariable.length
+
+The above syntax will return a number, which is the size of an array
+
+
+Note:By default arrays are homogenius.
+
+To make an array as "hetrogenius"m then there is an called "Object Array"
+
+This object Array can store different datatypes.
+
+
+
+
+
+
+
