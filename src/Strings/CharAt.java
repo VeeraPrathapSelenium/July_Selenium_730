@@ -7,16 +7,33 @@ public class CharAt {
 		
 		System.out.println(str.charAt(1));
 		
-		
-		
+		int vowels=0;
+		int cons=0;
 		//Print each character from string
 		
 		
 		for(int i=0;i<=str.length()-1;i++)
 		{
 			
-			System.out.println(str.charAt(i));
+			char c=str.charAt(i);
+			
+			if(c=='a'|| c=='e'||c=='i'||c=='o'||c=='u')
+			{
+				vowels++;
+			}else if(! Character.isWhitespace(c))
+			{
+				cons++;
+			}
 		}
+		
+		
+		System.out.println("The total number of vowels are "+vowels);
+		
+		System.out.println("The total number of consonants are "+cons);
+		
+		
+		
+		
 		
 		int j=0;
 		

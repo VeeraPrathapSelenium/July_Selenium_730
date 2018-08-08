@@ -23,3 +23,144 @@ Syntax:Stringvariable (or) String.charAt(index)
 
 Return type:Character
 
+
+How to verify if the Given Character is WhiteSpace?
+Character.isWhitespace()
+
+This method will verify the given character is white space or not.
+
+It will return boolean value.
+
+
+Replace:
+This method is used to replace the find value with user given value
+
+Syntax:
+
+String or String variable.replace("Find value","UserGiven Value");
+
+Trim:
+
+This method is used to remove the spaces which are in leading and trailing
+
+Syntax:
+
+String or String variable.trim()
+
+Return type:String
+
+Note :This method will not remove the space in between the words.
+
+
+equals:
+
+This method is used to compare two strings
+This method will return true/false
+
+Synatx:String or String variable.equals("Another String")
+
+Return type:boolean
+
+Note:If words are same but cases are different, As java is a case sensitive language, it will not compare
+
+
+equalsIgnoreCase:
+
+This method is used to compare two strings, by ignoring their cases
+This method will return true/false
+
+Synatx:String or String variable.equalsIgnoreCase("Another String")
+
+Return type:boolean
+
+ToUpperCase:
+
+This method is used to convert the source string into uppercase
+
+Syntax:String.toUpperCase();
+ReturnType:String
+
+
+
+ToLowerCase:
+
+This method is used to convert the source string into lowercase
+
+Syntax:String.toLowerCase();
+ReturnType:String
+
+
+How to verify if the given character is number or not?
+
+Character.isDigit('character')
+
+Substring:
+
+This method is used to crop sequence of characters from the point where user given to the point where user is given
+
+sysntax:
+
+String.Substring(starting index,how many charcter do u need or length)
+
+If the user is not specifying the length, then the compiler will crop the whole string from the starting point , that the user is specified.
+
+indexOf:
+This method is used to get the first index of a the given character in the source string
+.
+
+Syntax:
+String or String variable.indexOf('character' or "String")
+
+Return type:Integer
+
+
+lastIndexOf:
+This method is used to get the last index of a the given character in the source string
+
+
+Syntax:
+String or String variable.lastIndexOf('character' or "String")
+
+Return type:Integer
+
+
+StartsWith:
+This method is used to verify that the given string is starting with with some word or not
+
+Syntax:
+String or String variable.startsWith('character' or "String")
+
+Return type:boolean
+
+EndsWith:
+This method is used to verify that the given string is ending with with some word or not
+
+Syntax:
+String or String variable.endsWith('character' or "String")
+
+Return type:boolean
+
+
+Contains:
+This method is used to search a word in the given source string
+
+Syntax:
+String or String variable.contains('character' or "String")
+
+Return type:boolean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
