@@ -149,6 +149,16 @@ String or String variable.contains('character' or "String")
 
 Return type:boolean
 
+Split:
+This method is used convert a string into an array
+This is used to break or split the given source string by a delimiter
+
+By default, the delimiter will be space.
+
+Syntax:String or String variable.split("delimiter");
+
+Return type:Array
+
 
 
 
