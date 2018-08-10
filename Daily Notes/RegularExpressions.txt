@@ -1,0 +1,64 @@
+"111225643333444455550698966667777888"
+
+How many repeated characters are available in the given string
+
+How many non repeated characters vailable in the string
+
+Note:When you found a repeated characters, you must skip that
+
+Regular Expressions:
+
+Regular Expressions are pattern based, which is used to extract the data in the pattern given by the user
+
+This will retrive the data only when there is a match exist on the source staring
+
+This is very quick in parsing and retriving the data.
+
+This is very helpfull to QA when they work on validationg reports and messages with some defined formats.
+
+
+For Example:
+ I want to extract the PAN Number as GHJIP9600E
+
+
+How to create a pattern?
+
+Character Set
+
+[A-Z] [a-z] [0-9]
+
+
+To Represent pairs:--{}
+
+[A-Z]{5}---> it will fetch the cpaital letters which are in pairs of 5
+
+Ends with--$
+Starts with-->^
+space --->\s
+To include special characters--->\special character
+only numeric-->\d
+only Alphabts-->\D
+
+Any thing except new line--> *
+
+Any thing including new line --> .*
+
+Not-->[^]
+
+
+For More reference :
+
+https://www.rexegg.com/regex-quickstart.html
+https://regex101.com/
+
+
+
+
+
+
+
+
+
+
+
+
