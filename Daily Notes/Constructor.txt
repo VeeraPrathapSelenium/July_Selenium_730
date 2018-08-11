@@ -1,0 +1,35 @@
+Constructor:
+
+Constructor is isuued to intialize the Class Level fields.
+
+A Constructor will be intialized when a object is created for a class
+
+Constructor is also a block , which contains some business logic.
+
+Constructor is also similar to a method but , constructor cannot return a a value.
+
+Constructor will always be a name of a class.
+
+Constructors are of two types
+		* Parameterized Constructors
+		* Non- Parameterized Constructors
+		
+By Default there will be a zero parameter constructor available in the background, this also will invoke only when the object is created
+
+User can call only one constructor with in a constructor 
+
+Note: The calling statement must be the first statement, user can not call a constructor  from a second line.
+
+
+Syntax:
+
+ClassName()
+{
+
+//Business logic
+}
+
+
+To call a a constructor from another constructor , User this keyword
+
+this indicates current class
