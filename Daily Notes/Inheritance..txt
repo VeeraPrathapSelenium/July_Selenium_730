@@ -1,0 +1,24 @@
+Inheritance:
+
+Acquring the properties of parent class into the child class is called Inheritance
+
+This reduces the line of code when we have a proper relationship between the classes.
+
+There are different types inheritance avilable.
+
+1.Single level 
+2.Muti level
+3.Hierarcial
+4.Hybrid
+5.Multiple
+
+
+To get the relation between two classes "extends" key word must be used.
+
+Single level:
+Having only one relationship as a child from the parent class
+Note: A Parent can not  extends a child.
+
+Note: A child can change the properties of a parent when these is no final keyword available to that particular property
+
+when we try to modify the properties when it has final keyword, user will get "The final field ParentClass.name cannot be assigned" as an error message 

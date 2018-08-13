@@ -1,0 +1,23 @@
+Ability to have more than one form.
+
+It is of two types:
+
+1.Compile time polymorphsim(Overloading, Same class)
+2.Run time polymorphsim(Over riding,Different class)
+
+
+Overloading:
+Having same method name but the different parameters under a same class is called as Overloading
+
+
+Overriding:
+Having same method name with same  parameters under a different class is called as Overriding
+
+When there is a same method with same parameters in both parent class and child class, the priority is given to the child class
+
+if the user want to access the parent class method the we must use a relation 
+
+
+Parent p =new child();
+
+Now in this syntax, we will create the object to the child class, but reference is given to the parent class
