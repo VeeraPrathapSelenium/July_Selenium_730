@@ -1,0 +1,4 @@
+To Access the parent class constructor from the child class, Super Keyword is used.
+
+Super indicates the parent class.
+

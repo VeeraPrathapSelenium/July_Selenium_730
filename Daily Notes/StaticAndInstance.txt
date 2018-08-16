@@ -1,0 +1,24 @@
+Static Block:
+
+This block will execute when ever the class get loaded.
+
+Because the Static items will get memory when a class is loaded.
+
+
+Instance Block:
+
+This Block will execute when ever an object is created.Instance block will get memory allocated only when an object is created
+
+
+Syntax for Static block
+static
+{
+
+}
+
+
+Syntax for Instance block
+
+{
+
+}

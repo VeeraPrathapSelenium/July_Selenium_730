@@ -1,0 +1,55 @@
+FileSystem is one of the important concept in every programming language.
+
+This concept is used to handle different files and folder manipulations
+
+In the real time, we come across some situations like, verify the summary reports or verifying the detail statements 
+
+Download the file to a specific folder, if the folder is not exist , user must create that folder and download the file.
+
+So to handle these scenarios we must aware of FileSystem.
+
+
+When it comes to QA perspective we mainly depend on Excel,Note pad,PropertiesFiles  and Folder management for different purposes like storing daily to daily test results etc.
+
+
+How to handle different Files?
+
+In General we have two types of data
+
+	* Character Data
+	* Binary Data
+	
+The file with .txt as an extension is called character data
+
+The file with other than .txt called as binary data
+
+For every file type we have some readers and writers.
+
+
+
+For Character data:
+		Writers :
+			FileWritter
+			Buffered Writer
+			Print Writer
+		Readers:
+			File Reader
+			Buffered Reader
+
+All the listed above are individual classes, which are available under a parent class called "File"
+
+File f=new File("Filepath");
+
+This above statement will never create a file
+
+
+FileWritter,Buffered Writer can not be used , as it fails to write data for numerics and newline.If the user tries to write a numeric data , it writes the ASCII value of that character
+
+To Over come this we will user Printer wiriter
+
+PrintWriter will write the numeric data as well as new line too.
+
+This print writer will always depend on File Writer. 
+	
+	
+ 
